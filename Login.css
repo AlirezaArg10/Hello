@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(2.jpg);
+    background-position: 100%;
+}
+
+.lesson {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.back {
+    text-align: left;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+.back a {
+    color: red;
+    background-color: white;
+    border-radius: 15px;
+}
